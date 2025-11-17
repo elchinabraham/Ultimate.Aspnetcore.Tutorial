@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ki71LzoR1D4=",
+  "dgSpecHash": "CwB7mrsGrmw=",
   "success": true,
   "projectFilePath": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\nlog\\6.0.6\\nlog.6.0.6.nupkg.sha512",
+    "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\nlog.extensions.logging\\6.1.0\\nlog.extensions.logging.6.1.0.nupkg.sha512",
     "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
     "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
     "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512",

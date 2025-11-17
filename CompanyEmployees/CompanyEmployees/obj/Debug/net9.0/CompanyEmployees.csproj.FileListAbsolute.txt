@@ -27,3 +27,14 @@ C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\Compan
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.pdb
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.genruntimeconfig.cache
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\ref\CompanyEmployees.dll
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\appsettings.Production.json
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.sourcelink.json
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\nlog.config
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\NLog.dll
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\NLog.Extensions.Logging.dll
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Contracts.dll
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\LoggerService.dll
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\LoggerService.pdb
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\bin\Debug\net9.0\Contracts.pdb
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.csproj.AssemblyReference.cache
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\obj\Debug\net9.0\CompanyE.34C766B8.Up2Date
