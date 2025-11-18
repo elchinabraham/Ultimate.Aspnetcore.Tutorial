@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC864AA8-6E75-47D2-9AAB-97DBE3F7C425}|Repository\\Repository.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\repository\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC864AA8-6E75-47D2-9AAB-97DBE3F7C425}|Repository\\Repository.csproj|solutionrelative:repository\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3781AB00-F369-4CD2-8750-85CEA134BD81}|Service\\Service.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\service\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3781AB00-F369-4CD2-8750-85CEA134BD81}|Service\\Service.csproj|solutionrelative:service\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66716F0D-8EB8-4531-8DF3-FF84EF607D48}|Service.Contracts\\Service.Contracts.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\service.contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66716F0D-8EB8-4531-8DF3-FF84EF607D48}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC77163-BA60-430D-A6E4-B042B5B86F2A}|MiddlewareExample\\MiddlewareExample.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\middlewareexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC77163-BA60-430D-A6E4-B042B5B86F2A}|MiddlewareExample\\MiddlewareExample.csproj|solutionrelative:middlewareexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3781AB00-F369-4CD2-8750-85CEA134BD81}|Service\\Service.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3781AB00-F369-4CD2-8750-85CEA134BD81}|Service\\Service.csproj|solutionrelative:service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3781AB00-F369-4CD2-8750-85CEA134BD81}|Service\\Service.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\service\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3781AB00-F369-4CD2-8750-85CEA134BD81}|Service\\Service.csproj|solutionrelative:service\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66716F0D-8EB8-4531-8DF3-FF84EF607D48}|Service.Contracts\\Service.Contracts.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\service.contracts\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66716F0D-8EB8-4531-8DF3-FF84EF607D48}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66716F0D-8EB8-4531-8DF3-FF84EF607D48}|Service.Contracts\\Service.Contracts.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\service.contracts\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66716F0D-8EB8-4531-8DF3-FF84EF607D48}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF91BEF-C9FE-4552-AADE-8AF57BF60E9F}|CompanyEmployees\\CompanyEmployees.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\companyemployees\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF91BEF-C9FE-4552-AADE-8AF57BF60E9F}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF91BEF-C9FE-4552-AADE-8AF57BF60E9F}|CompanyEmployees\\CompanyEmployees.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\companyemployees\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF91BEF-C9FE-4552-AADE-8AF57BF60E9F}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Repository\\RepositoryManager.cs",
+              "RelativeDocumentMoniker": "Repository\\RepositoryManager.cs",
+              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Repository\\RepositoryManager.cs",
+              "RelativeToolTip": "Repository\\RepositoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:58:09.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\MiddlewareExample\\Program.cs",
+              "RelativeDocumentMoniker": "MiddlewareExample\\Program.cs",
+              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\MiddlewareExample\\Program.cs",
+              "RelativeToolTip": "MiddlewareExample\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:57:11.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Service.Contracts\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "Service.Contracts\\ICompanyService.cs",
+              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Service.Contracts\\ICompanyService.cs",
+              "RelativeToolTip": "Service.Contracts\\ICompanyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:49:39.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Service.Contracts\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "Service.Contracts\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Service.Contracts\\IEmployeeService.cs",
+              "RelativeToolTip": "Service.Contracts\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:49:37.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Service.Contracts\\IServiceManager.cs",
+              "RelativeDocumentMoniker": "Service.Contracts\\IServiceManager.cs",
+              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Service.Contracts\\IServiceManager.cs",
+              "RelativeToolTip": "Service.Contracts\\IServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:49:33.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees\\Program.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees\\Program.cs",
+              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees\\Program.cs",
+              "RelativeToolTip": "CompanyEmployees\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:48:27.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "CompanyEmployees\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:47:55.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Service\\ServiceManager.cs",
+              "RelativeDocumentMoniker": "Service\\ServiceManager.cs",
+              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Service\\ServiceManager.cs",
+              "RelativeToolTip": "Service\\ServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:46:25.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Service\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Service\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Service\\EmployeeService.cs",
+              "RelativeToolTip": "Service\\EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:46:03.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Service\\CompanyService.cs",
+              "RelativeDocumentMoniker": "Service\\CompanyService.cs",
+              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Service\\CompanyService.cs",
+              "RelativeToolTip": "Service\\CompanyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T10:44:32.954Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
