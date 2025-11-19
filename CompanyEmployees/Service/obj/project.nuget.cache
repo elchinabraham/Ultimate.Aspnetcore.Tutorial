@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Zy+rkO+KY9M=",
+  "dgSpecHash": "9J4fJiGVNZM=",
   "success": true,
   "projectFilePath": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Service\\Service.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

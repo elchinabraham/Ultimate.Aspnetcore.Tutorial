@@ -16,3 +16,5 @@ C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\Compan
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\Repository\obj\Debug\net10.0\ref\Repository.dll
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\Repository\bin\Debug\net10.0\Repository.runtimeconfig.json
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\Repository\obj\Debug\net10.0\Repository.genruntimeconfig.cache
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\Repository\bin\Debug\net10.0\Contracts.dll
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\Repository\bin\Debug\net10.0\Contracts.pdb

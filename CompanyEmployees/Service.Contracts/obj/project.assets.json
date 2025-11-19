@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Shared.csproj",
+      "msbuildProject": "../Shared/Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Shared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Shared\\Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

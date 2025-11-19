@@ -2,6 +2,31 @@
   "version": 3,
   "targets": {
     "net10.0": {
+      "AutoMapper/12.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "[12.0.1]"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Azure.Core/1.47.1": {
         "type": "package",
         "dependencies": {
@@ -1486,9 +1511,25 @@
           }
         }
       },
+      "CompanyEmployees.Presentation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Service.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CompanyEmployees.Presentation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CompanyEmployees.Presentation.dll": {}
+        }
+      },
       "Contracts/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Contracts.dll": {}
         },
@@ -1508,7 +1549,7 @@
       },
       "LoggerService/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
+        "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Contracts": "1.0.0",
           "NLog.Extensions.Logging": "6.1.0"
@@ -1540,6 +1581,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Contracts": "1.0.0",
           "Service.Contracts": "1.0.0"
         },
@@ -1553,16 +1595,58 @@
       "Service.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Shared": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Service.Contracts.dll": {}
         },
         "runtime": {
           "bin/placeholder/Service.Contracts.dll": {}
         }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "AutoMapper/12.0.1": {
+      "sha512": "hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
+      "type": "package",
+      "path": "automapper/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.12.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.dll",
+        "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
+      "sha512": "+g/K+Vpe3gGMKGzjslMOdqNlkikScDjWfVvmWTayrDHaG/n2pPmFBMa+jKX1r/h6BDGFdkyRjAuhFE3ykW+r1g==",
+      "type": "package",
+      "path": "automapper.extensions.microsoft.dependencyinjection/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+      ]
+    },
     "Azure.Core/1.47.1": {
       "sha512": "oPcncSsDHuxB8SC522z47xbp2+ttkcKv2YZ90KXhRKN0YQd2+7l1UURT9EBzUNEXtkLZUOAB5xbByMTrYRh3yA==",
       "type": "package",
@@ -3852,6 +3936,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "CompanyEmployees.Presentation/1.0.0": {
+      "type": "project",
+      "path": "../CompanyEmployees.Presentation/CompanyEmployees.Presentation.csproj",
+      "msbuildProject": "../CompanyEmployees.Presentation/CompanyEmployees.Presentation.csproj"
+    },
     "Contracts/1.0.0": {
       "type": "project",
       "path": "../Contracts/Contracts.csproj",
@@ -3881,10 +3970,16 @@
       "type": "project",
       "path": "../Service.Contracts/Service.Contracts.csproj",
       "msbuildProject": "../Service.Contracts/Service.Contracts.csproj"
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Shared.csproj",
+      "msbuildProject": "../Shared/Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "CompanyEmployees.Presentation >= 1.0.0",
       "LoggerService >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.0",
       "Repository >= 1.0.0",
@@ -3924,6 +4019,9 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
+            "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
+              "projectPath": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj"
+            },
             "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\LoggerService\\LoggerService.csproj": {
               "projectPath": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\LoggerService\\LoggerService.csproj"
             },
