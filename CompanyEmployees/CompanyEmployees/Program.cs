@@ -1,6 +1,7 @@
 using CompanyEmployees.Extensions;
 using Contracts;
 using Microsoft.AspNetCore.HttpOverrides;
+using Microsoft.AspNetCore.Mvc;
 using NLog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,9 +19,15 @@ builder.Services.AddAutoMapper(typeof(Program));
 // Configuration for XML formatters and application parts
 builder.Services.AddControllers(config => {
     config.RespectBrowserAcceptHeader = true;
+    config.ReturnHttpNotAcceptable = true;
 }).AddXmlDataContractSerializerFormatters()
+.AddCustomCSVFormatter()
 .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
 
+//builder.Services.Configure<ApiBehaviorOptions>(options =>
+//{
+//    options.SuppressModelStateInvalidFilter = true;
+//});
 
 builder.Services.AddControllers();
 

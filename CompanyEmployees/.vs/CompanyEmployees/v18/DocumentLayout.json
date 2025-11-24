@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9CF91BEF-C9FE-4552-AADE-8AF57BF60E9F}|CompanyEmployees\\CompanyEmployees.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\companyemployees\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CF91BEF-C9FE-4552-AADE-8AF57BF60E9F}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A29C66B8-9F71-4997-9E05-B6671F65FB54}|Shared\\Shared.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\shared\\datatransferobjects\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A29C66B8-9F71-4997-9E05-B6671F65FB54}|Shared\\Shared.csproj|solutionrelative:shared\\datatransferobjects\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,32 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "CompanyEmployees\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees\\MappingProfile.cs",
-              "RelativeToolTip": "CompanyEmployees\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T10:20:23.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CompanyDto.cs",
-              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Shared\\DataTransferObjects\\CompanyDto.cs",
-              "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\CompanyDto.cs",
-              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Shared\\DataTransferObjects\\CompanyDto.cs",
-              "RelativeToolTip": "Shared\\DataTransferObjects\\CompanyDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T10:20:01.03Z",
-              "EditorCaption": ""
             }
           ]
         }

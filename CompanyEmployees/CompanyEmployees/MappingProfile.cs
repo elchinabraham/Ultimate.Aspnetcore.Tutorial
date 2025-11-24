@@ -12,6 +12,9 @@ namespace CompanyEmployees
                 opt => opt.MapFrom(x => string.Concat(x.Address," ", x.Country)));
 
             CreateMap<Employee, EmployeeDto>();
+
+            CreateMap<CompanyForCreationDto, Company>();
+            CreateMap<EmployeeForCreationDto, Employee>();
         }
     }
 }
