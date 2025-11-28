@@ -1,4 +1,5 @@
 using CompanyEmployees.Extensions;
+using CompanyEmployees.Presentation.Filters;
 using Contracts;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
@@ -17,6 +18,8 @@ builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.AddAutoMapper(typeof(Program));
+
+builder.Services.AddScoped<ValidationFilterAttribute>();
 
 // Configuration for XML formatters and application parts
 builder.Services.AddControllers(config => {
@@ -38,6 +41,16 @@ NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter()
 //{
 //    options.SuppressModelStateInvalidFilter = true;
 //});
+
+// TODO: For globally usomg
+//builder.Services.AddControllers(config =>
+//{
+//    config.Filters.Add(new GlobalFilterExample());
+//});
+
+// TODO: For Action or Controller level
+//builder.Services.AddScoped<ActionFilterExample>();
+//builder.Services.AddScoped<ControllerFilterExample>();
 
 builder.Services.AddControllers();
 
