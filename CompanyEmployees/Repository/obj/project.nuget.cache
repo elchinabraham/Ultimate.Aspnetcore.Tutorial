@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4LD7YS4ypD8=",
+  "dgSpecHash": "o1D80CIyROQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
@@ -62,6 +62,7 @@
     "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.4\\system.diagnostics.eventlog.9.0.4.nupkg.sha512",
     "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\system.formats.nrbf\\9.0.0\\system.formats.nrbf.9.0.0.nupkg.sha512",
     "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.7.1\\system.identitymodel.tokens.jwt.7.7.1.nupkg.sha512",
+    "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\system.linq.dynamic.core\\1.7.1\\system.linq.dynamic.core.1.7.1.nupkg.sha512",
     "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\system.memory.data\\8.0.1\\system.memory.data.8.0.1.nupkg.sha512",
     "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\system.reflection.metadataloadcontext\\7.0.0\\system.reflection.metadataloadcontext.7.0.0.nupkg.sha512",
     "C:\\Users\\elcin.ibrahimli\\.nuget\\packages\\system.resources.extensions\\9.0.0\\system.resources.extensions.9.0.0.nupkg.sha512",
