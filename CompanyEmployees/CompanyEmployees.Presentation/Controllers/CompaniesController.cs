@@ -5,7 +5,9 @@ using Shared.DataTransferObjects;
 
 namespace CompanyEmployees.Presentation.Controllers
 {
+    [ApiVersion("1.0")]
     [Route("api/companies")]
+    //[ResponseCache(CacheProfileName = "120SecondsDuration")]
     [ApiController]
     public class CompaniesController : ControllerBase
     {
@@ -30,6 +32,7 @@ namespace CompanyEmployees.Presentation.Controllers
 
 
         [HttpGet("{id:guid}", Name = "CompanyById")]
+        [ResponseCache(Duration = 15)]
         public async Task<IActionResult> GetCompany(Guid id)
         {
             var company = await _service.CompanyService.GetCompanyAsync(id, trackChanges: false);
