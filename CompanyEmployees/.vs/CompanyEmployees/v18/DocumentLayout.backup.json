@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CF91BEF-C9FE-4552-AADE-8AF57BF60E9F}|CompanyEmployees\\CompanyEmployees.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\companyemployees\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CF91BEF-C9FE-4552-AADE-8AF57BF60E9F}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CF91BEF-C9FE-4552-AADE-8AF57BF60E9F}|CompanyEmployees\\CompanyEmployees.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\companyemployees\\migrations\\20251205105336_addedrolestodb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF91BEF-C9FE-4552-AADE-8AF57BF60E9F}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\migrations\\20251205105336_addedrolestodb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DAC78C6-6A98-4CB8-A7CF-F1E579873B96}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\companyemployees.presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DAC78C6-6A98-4CB8-A7CF-F1E579873B96}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|solutionrelative:companyemployees.presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC864AA8-6E75-47D2-9AAB-97DBE3F7C425}|Repository\\Repository.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\repository\\configuration\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC864AA8-6E75-47D2-9AAB-97DBE3F7C425}|Repository\\Repository.csproj|solutionrelative:repository\\configuration\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DAC78C6-6A98-4CB8-A7CF-F1E579873B96}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\companyemployees.presentation\\controllers\\companiesv2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DAC78C6-6A98-4CB8-A7CF-F1E579873B96}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|solutionrelative:companyemployees.presentation\\controllers\\companiesv2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC864AA8-6E75-47D2-9AAB-97DBE3F7C425}|Repository\\Repository.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\repository\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC864AA8-6E75-47D2-9AAB-97DBE3F7C425}|Repository\\Repository.csproj|solutionrelative:repository\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DAC78C6-6A98-4CB8-A7CF-F1E579873B96}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\elcin.ibrahimli\\desktop\\pdfs\\2025\\#2. ultimate-aspnetcore-webapi\\companyemployees\\companyemployees.presentation\\controllers\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DAC78C6-6A98-4CB8-A7CF-F1E579873B96}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|solutionrelative:companyemployees.presentation\\controllers\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20251205105336_AddedRolesToDb2.cs",
+              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees\\Migrations\\20251205105336_AddedRolesToDb2.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees\\Migrations\\20251205105336_AddedRolesToDb2.cs",
+              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees\\Migrations\\20251205105336_AddedRolesToDb2.cs",
+              "RelativeToolTip": "CompanyEmployees\\Migrations\\20251205105336_AddedRolesToDb2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T10:53:36.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Repository\\Configuration\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "Repository\\Configuration\\RoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Repository\\Configuration\\RoleConfiguration.cs",
+              "RelativeToolTip": "Repository\\Configuration\\RoleConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T10:52:30.023Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -37,42 +67,49 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees\\Extensions\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "CompanyEmployees\\Extensions\\ServiceExtensions.cs",
-              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees\\Extensions\\ServiceExtensions.cs",
-              "RelativeToolTip": "CompanyEmployees\\Extensions\\ServiceExtensions.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAgwC4AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T10:55:00.701Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CompaniesV2Controller.cs",
-              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\CompaniesV2Controller.cs",
-              "RelativeDocumentMoniker": "CompanyEmployees.Presentation\\Controllers\\CompaniesV2Controller.cs",
-              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\CompaniesV2Controller.cs",
-              "RelativeToolTip": "CompanyEmployees.Presentation\\Controllers\\CompaniesV2Controller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Title": "RepositoryContext.cs",
+              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Repository\\RepositoryContext.cs",
+              "RelativeDocumentMoniker": "Repository\\RepositoryContext.cs",
+              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\Repository\\RepositoryContext.cs",
+              "RelativeToolTip": "Repository\\RepositoryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T10:01:09.229Z",
+              "WhenOpened": "2025-12-05T10:52:27.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CompaniesController.cs",
-              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "RelativeDocumentMoniker": "CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "RelativeToolTip": "CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Authentication.cs",
+              "DocumentMoniker": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\Authentication.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees.Presentation\\Controllers\\Authentication.cs",
+              "ToolTip": "C:\\Users\\elcin.ibrahimli\\Desktop\\PDFs\\2025\\#2. Ultimate-aspnetcore-webapi\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\Authentication.cs",
+              "RelativeToolTip": "CompanyEmployees.Presentation\\Controllers\\Authentication.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvwYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T09:08:16.123Z",
+              "WhenOpened": "2025-12-05T10:47:59.012Z",
               "EditorCaption": ""
             }
           ]
