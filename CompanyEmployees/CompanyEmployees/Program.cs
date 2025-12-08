@@ -35,6 +35,8 @@ builder.Services.ConfigureIdentity();
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 builder.Services.AddScoped<ValidationFilterAttribute>();
 
+builder.Services.ConfigureJWT(builder.Configuration);
+
 // Configuration for XML formatters and application parts
 builder.Services.AddControllers(config => {
     config.RespectBrowserAcceptHeader = true;
