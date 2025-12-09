@@ -1,5 +1,6 @@
 ﻿using AspNetCoreRateLimit;
 using Contracts;
+using Entities.ConfigurationModels;
 using Entities.Models;
 using Marvin.Cache.Headers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -8,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi;
 using Repository;
 using Service;
 using Service.Contracts;
@@ -73,6 +75,9 @@ public static class ServiceExtensions
             opt.ApiVersionReader = new HeaderApiVersionReader("api-version");
         });
 
+    public static void AddJwtConfiguration(this IServiceCollection services, IConfiguration configuration) 
+        => services.Configure<JwtConfiguration>(configuration.GetSection("JwtSettings"));
+
     public static void ConfigureRateLimitingOptions(this IServiceCollection services)
     {
         var rateLimitRules = new List<RateLimitRule>
@@ -112,25 +117,43 @@ public static class ServiceExtensions
 
     public static void ConfigureJWT(this IServiceCollection services, IConfiguration configuration)
     {
-        var jwtSettings = configuration.GetSection("JwtSettings");
+        var jwtConfiguration = new JwtConfiguration();
+        configuration.Bind(jwtConfiguration.Section, jwtConfiguration);
         var secretKey = Environment.GetEnvironmentVariable("SECRET") + "_SuperStrongKey123";
         services.AddAuthentication(opt =>
         {
             opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
             opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
         })
-            .AddJwtBearer(options =>
+        .AddJwtBearer(options =>
+        {
+            options.TokenValidationParameters = new TokenValidationParameters
             {
-                options.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidateLifetime = true,
-                    ValidateIssuerSigningKey = true,
-                    ValidIssuer = jwtSettings["validIssuer"],
-                    ValidAudience = jwtSettings["validAudience"],
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey))
-                };
+                ValidateIssuer = true,
+                ValidateAudience = true,
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,
+                ValidIssuer = jwtConfiguration.ValidIssuer,
+                ValidAudience = jwtConfiguration.ValidAudience,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey))
+            };
+        });
+    }
+
+    public static void ConfigureSwagger(this IServiceCollection services)
+    {
+        services.AddSwaggerGen(s =>
+        {
+            s.SwaggerDoc("v1", new OpenApiInfo
+            {
+                Title = "Code Maze API",
+                Version = "v1"
             });
+            s.SwaggerDoc("v2", new OpenApiInfo
+            {
+                Title = "Code Maze API",
+                Version = "v2"
+            });
+        });
     }
 }

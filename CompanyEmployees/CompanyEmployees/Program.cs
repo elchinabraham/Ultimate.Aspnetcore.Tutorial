@@ -24,6 +24,8 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.ConfigureVersioning();
 builder.Services.ConfigureResponseCaching();
 builder.Services.ConfigureHttpCacheHeaders();
+builder.Services.AddJwtConfiguration(builder.Configuration);
+builder.Services.ConfigureSwagger();
 
 builder.Services.AddMemoryCache();
 builder.Services.ConfigureRateLimitingOptions();
@@ -72,6 +74,14 @@ NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter()
 builder.Services.AddControllers();
 
 var app = builder.Build();
+
+app.UseSwagger();
+app.UseSwaggerUI(s =>
+{
+    s.SwaggerEndpoint("/swagger/v1/swagger.json", "Code Maze API v1");
+    s.SwaggerEndpoint("/swagger/v2/swagger.json", "Code Maze API v2");
+});
+
 
 var logger = app.Services.GetRequiredService<ILoggerManager>();
 

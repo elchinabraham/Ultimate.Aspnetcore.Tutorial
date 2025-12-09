@@ -6,9 +6,10 @@ using Shared.DataTransferObjects;
 
 namespace CompanyEmployees.Presentation.Controllers
 {
-    [ApiVersion("1.0")]
+    //[ApiVersion("1.0")]
     [Route("api/companies")]
     //[ResponseCache(CacheProfileName = "120SecondsDuration")]
+    [ApiExplorerSettings(GroupName = "v1")]
     [ApiController]
     public class CompaniesController : ControllerBase
     {

@@ -242,3 +242,7 @@ C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\Compan
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\bin\Debug\net10.0\AspNetCoreRateLimit.dll
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\CompanyEmployees\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
