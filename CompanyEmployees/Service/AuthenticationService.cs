@@ -64,6 +64,7 @@ public sealed class AuthenticationService : IAuthenticationService
 
         return result;
     }
+
     public async Task<TokenDto> CreateToken(bool populateExp)
     {
         var signingCredentials = GetSigningCredentials();
@@ -95,6 +96,7 @@ public sealed class AuthenticationService : IAuthenticationService
 
         return new SigningCredentials(secret, SecurityAlgorithms.HmacSha256);
     }
+
     private async Task<List<Claim>> GetClaims()
     {
         var claims = new List<Claim>
@@ -123,7 +125,6 @@ public sealed class AuthenticationService : IAuthenticationService
             claims: claims,
             expires: DateTime.Now.AddMinutes(Convert.ToDouble(_jwtConfiguration.Expires)),
             signingCredentials: signingCredentials
-
         );
 
         return tokenOptions;
