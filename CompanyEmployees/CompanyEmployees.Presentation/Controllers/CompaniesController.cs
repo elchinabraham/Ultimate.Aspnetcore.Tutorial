@@ -1,4 +1,6 @@
-﻿using CompanyEmployees.Presentation.ModelBinders;
+﻿using Application.Queries;
+using CompanyEmployees.Presentation.ModelBinders;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Service.Contracts;
@@ -14,7 +16,13 @@ namespace CompanyEmployees.Presentation.Controllers
     public class CompaniesController : ControllerBase
     {
         private readonly IServiceManager _service;
-        public CompaniesController(IServiceManager service) => _service = service;
+        private readonly ISender _sender;
+
+        public CompaniesController(IServiceManager service, ISender sender)
+        {
+            _service = service;
+            _sender = sender;
+        }
 
         [HttpOptions]
         public IActionResult GetCompaniesOptions()
@@ -33,6 +41,14 @@ namespace CompanyEmployees.Presentation.Controllers
         public async Task<IActionResult> GetCompanies()
         {
             var companies = await _service.CompanyService.GetAllCompaniesAsync(trackChanges: false);
+
+            return Ok(companies);
+        }
+
+        [HttpGet("GetCompaniesNew")]
+        public async Task<IActionResult> GetCompaniesNew()
+        {
+            var companies = await _sender.Send(new GetCompaniesQuery(TrackChanges: false));
 
             return Ok(companies);
         }

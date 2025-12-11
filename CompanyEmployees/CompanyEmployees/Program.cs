@@ -1,7 +1,7 @@
 using AspNetCoreRateLimit;
 using CompanyEmployees.Extensions;
-using CompanyEmployees.Presentation.Filters;
 using Contracts;
+using MediatR;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
@@ -36,6 +36,12 @@ builder.Services.ConfigureIdentity();
 
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 builder.Services.AddScoped<ValidationFilterAttribute>();
+
+//builder.Services.AddMediatR(typeof(Application.AssemblyReference).Assembly);
+builder.Services.AddMediatR(cfg =>
+{
+    cfg.RegisterServicesFromAssembly(typeof(Application.AssemblyReference).Assembly);
+});
 
 builder.Services.ConfigureJWT(builder.Configuration);
 
@@ -90,7 +96,7 @@ app.ConfigureExceptionHandler(logger);
 if (app.Environment.IsProduction())
     app.UseHsts();
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 app.UseForwardedHeaders(new ForwardedHeadersOptions

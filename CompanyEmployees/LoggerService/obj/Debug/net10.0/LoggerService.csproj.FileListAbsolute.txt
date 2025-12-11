@@ -3,8 +3,10 @@ C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\Compan
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\LoggerService\bin\Debug\net10.0\LoggerService.pdb
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\LoggerService\bin\Debug\net10.0\Contracts.dll
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\LoggerService\bin\Debug\net10.0\Entities.dll
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\LoggerService\bin\Debug\net10.0\Shared.dll
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\LoggerService\bin\Debug\net10.0\Contracts.pdb
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\LoggerService\bin\Debug\net10.0\Entities.pdb
+C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\LoggerService\bin\Debug\net10.0\Shared.pdb
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\LoggerService\obj\Debug\net10.0\LoggerService.csproj.AssemblyReference.cache
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\LoggerService\obj\Debug\net10.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\LoggerService\obj\Debug\net10.0\LoggerService.AssemblyInfoInputs.cache
@@ -16,5 +18,3 @@ C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\Compan
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\LoggerService\obj\Debug\net10.0\refint\LoggerService.dll
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\LoggerService\obj\Debug\net10.0\LoggerService.pdb
 C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\LoggerService\obj\Debug\net10.0\ref\LoggerService.dll
-C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\LoggerService\bin\Debug\net10.0\Shared.dll
-C:\Users\elcin.ibrahimli\Desktop\PDFs\2025\#2. Ultimate-aspnetcore-webapi\CompanyEmployees\LoggerService\bin\Debug\net10.0\Shared.pdb

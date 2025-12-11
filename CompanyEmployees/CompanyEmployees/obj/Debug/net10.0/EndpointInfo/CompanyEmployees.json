@@ -251,6 +251,18 @@
         }
       }
     },
+    "/api/companies/GetCompaniesNew": {
+      "get": {
+        "tags": [
+          "Companies"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/companies/{id}": {
       "get": {
         "tags": [

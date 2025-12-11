@@ -440,6 +440,16 @@
     "EndpointName": "CompanyCollection"
   },
   {
+    "ContainingType": "CompanyEmployees.Presentation.Controllers.CompaniesController",
+    "Method": "GetCompaniesNew",
+    "RelativePath": "api/companies/GetCompaniesNew",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CompanyEmployees.Presentation.Controllers.TokenController",
     "Method": "Refresh",
     "RelativePath": "api/token/refresh",
